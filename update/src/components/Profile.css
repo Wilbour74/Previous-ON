@@ -1,0 +1,141 @@
+.rounded{
+    border-radius: 30%;
+    height : 200px;
+    width : 200px;
+}
+
+.clickable-div {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    width: 25%;
+    transition: all .25 ease-in
+}
+
+.clickable-div:hover {
+    opacity: .75;
+}
+
+.secondary {
+    padding: 10px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background-color: rgb(164, 88, 164);
+    margin-top:8px ;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+}
+
+.secondary:hover{
+    color: rgb(164, 88, 164);
+    background: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid rgb(164, 88, 164);
+
+}
+
+.plus{
+    align-items: flex-start;
+    margin-right: auto;
+}
+/* 
+img{
+    height : 50%;
+    width : 50%;
+} */
+
+.banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border : 5px solid black;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -75px;
+    left: calc(50% - 75px);
+    border: 2px solid #fff;
+    float: left;
+  }
+
+html{
+    background: linear-gradient(to right, rgb(119, 0, 0), rgb(1, 13, 65));
+    color: rgb(212, 212, 212);
+    font-family: "DejaVu Sans Mono", monospace;
+    }
+
+.movie{
+    flex-direction: column;
+    margin-top: 100px;    
+}
+
+.movie img{
+    border-radius: 10px;
+}
+
+
+.movie button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10%;
+}
+
+.series{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.details{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 120px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.desc{
+    width : 60%;
+}
+
+.retour-button {
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+.avatar img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 150px;
+}
+
+.avatar{
+    margin-right: auto;
+}
+
+

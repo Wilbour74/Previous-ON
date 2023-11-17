@@ -1,0 +1,31 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.div{
+    background-color: black;
+    border : 5px solid black;
+    width: 30%;
+    margin-top : 10px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    
+}
+
+.div:hover {
+    background-color: #e0e0e0;
+    color: black
+}
+
+.episodes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episode{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 345px;
+}
+

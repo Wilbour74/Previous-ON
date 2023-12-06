@@ -27,7 +27,7 @@ const Profil = () => {
         let config = {
         method: 'post',
         maxBodyLength: Infinity,
-        url: `https://api.betaseries.com/oauth/access_token?client_id=be42888c11dd&client_secret=4f84b96f582fe7838ae1814d287bbc9b&redirect_uri=https://previous-on-bobc.vercel.app//profil&code=${code}`,
+        url: `https://api.betaseries.com/oauth/access_token?client_id=be42888c11dd&client_secret=4f84b96f582fe7838ae1814d287bbc9b&redirect_uri=https://previous-tiokoorxa-bourguignons-projects.vercel.app/profil&code=${code}`,
         headers: { },
         data : data
         };

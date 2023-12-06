@@ -7,7 +7,7 @@ const HomePage = () => {
         <>
         
         <button>
-        <Link to="https://www.betaseries.com/authorize?client_id=be42888c11dd&redirect_uri=http://localhost:3000/profil">
+        <Link to="https://www.betaseries.com/authorize?client_id=be42888c11dd&redirect_uri=https://previous-on-bobc.vercel.app/profil">
           Connecte toi
         </Link>
       </button>

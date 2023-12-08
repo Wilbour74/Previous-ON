@@ -148,6 +148,7 @@ const Delete = (seriesId) => {
         <img src={userData.profile_banner} className="banner" />
       <img src={userData.avatar} className="profile-image rounded" />
         <p>Salut a toi {userData.login}</p>
+        
         <div className="series">
         
         {series.map(serie => {
